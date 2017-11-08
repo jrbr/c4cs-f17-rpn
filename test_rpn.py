@@ -8,7 +8,7 @@ class TestBasics(unittest.TestCase):
         self.assertEqual(2, result)
     def test_subtract(self):
         result = rpn.calculate("5 3 -")
-        self.assertEqual(5, result)
+        self.assertEqual(2, result)
     def test_multiply(self):
         result = rpn.calculate("5 3 *")
         self.assertEqual(15, result)
