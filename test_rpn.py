@@ -8,13 +8,13 @@ class TestBasics(unittest.TestCase):
         self.assertEqual(2, result)
     def test_subtract(self):
         result = rpn.calculate("5 3 -")
-        self.assertEqual(2, result)
+        self.assertEqual(5, result)
     def test_multiply(self):
         result = rpn.calculate("5 3 *")
         self.assertEqual(15, result)
     def test_divide(self):
         result = rpn.calculate("6 3 /")
         self.assertEqual(2, result)
-    def test_divide(self):
+    def test_carat(self):
         result = rpn.calculate("3 4 ^")
         self.assertEqual(81, result)
