@@ -4,5 +4,5 @@ python:
 notifications:
   email: false
 script:
-    - python test_rpn.py
+    - pytest
 
